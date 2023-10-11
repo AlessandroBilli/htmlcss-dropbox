@@ -15,14 +15,8 @@ body {
 img{
     max-width: 100%;
 }
-.container img {
-    flex: 1;
-    max-width: 60%; /**/
 
-}
- .container p{
-    max-width: 40%; /**/
-}
+ 
 
 nav {
     background-color: #ffffff;
@@ -94,11 +88,10 @@ ul {
 }
 
 .container {
-    display: flex;
-    flex-direction: column; /* Imposta la direzione dei figli come colonna */
-    align-items: center; /* Allinea verticalmente al centro */
-    text-align: center; /* Allinea il testo al centro orizzontalmente */
-    margin-top: 100px;
+    
+    
+    max-width: 1200px;
+    margin:100px auto;
 }
   
   h1 {
@@ -110,13 +103,31 @@ ul {
   
   .content {
     display: flex;
-    justify-content: center; /* Allinea orizzontalmente al centro */
-    align-items: center; /* Allinea verticalmente al centro */
+    justify-content: center;
+    align-items: center;
+   
   }
-  
-  #jumbotext{
-    
+  .col-lf {
+    width: 30%;
+
   }
+
+  .col-rg{
+    width: 70%;
+  }
+
+  .button-blu{
+    border: none;
+    text-align: center;
+    color: white;
+    background-color: #0061ff;
+    width: 225px;
+    height: 36px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+ 
   
   
 
