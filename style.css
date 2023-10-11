@@ -5,50 +5,170 @@
     box-sizing: border-box;
 }
 
-nav{
+body {
+    height: 7168px;
+    width: 1909px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+img{
+    max-width: 100%;
+}
+.container img {
+    flex: 1;
+    max-width: 60%; /**/
+
+}
+ .container p{
+    max-width: 40%; /**/
+}
+
+nav {
     background-color: #ffffff;
     height: 80px;
     width: 100%;
     display: flex;
     position: fixed;
     justify-content: space-between;
-     
-    
+    top: auto;
+    bottom: auto;
+
+
+
+
+
 }
 
-.dsnav{ 
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.dsnav {
     display: flex;
     justify-content: start;
     margin: 20px;
     gap: 39px;
     align-items: center;
-    
+
+
+
 
 
 }
 
-.snnav{
+.snnav {
     display: flex;
     align-items: center;
-    justify-content: end ;
+    justify-content: end;
     gap: 39px;
     margin: 20px;
-    
+
 }
 
 nav ul li button {
-    background-color:#0061ff ;
+    background-color: #0061ff;
     color: white;
     border: none;
     padding: 10px;
     height: 24px;
     width: 64;
-    display: flex;
     align-items: center;
-    
-    
+    padding-bottom: 3px;
+    display: flex;
+
+
 }
-ul{
+
+ul {
     list-style-type: none;
 }
+
+.azurrerettangle {
+    width: 1909px;
+    height: 737px;
+    background-color: #b4d0e7;
+    display: flex;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Imposta la direzione dei figli come colonna */
+    align-items: center; /* Allinea verticalmente al centro */
+    text-align: center; /* Allinea il testo al centro orizzontalmente */
+    margin-top: 100px;
+}
+  
+  h1 {
+    font-size: 77px; /* Regola la dimensione dell'h1 secondo le tue esigenze */
+    font-family: 'Open Sans', sans-serif; /* Imposta il font desiderato */
+    font-weight: 800px;
+    margin-bottom: 20px;
+}
+  
+  .content {
+    display: flex;
+    justify-content: center; /* Allinea orizzontalmente al centro */
+    align-items: center; /* Allinea verticalmente al centro */
+  }
+  
+  #jumbotext{
+    
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*header .azurrerettangle strong div {
+    display: flex;
+    align-items: flex-end;
+    height: 190px;
+    width: 1048px;
+    justify-content: center;
+    margin-left: 180px;
+    font-size: 40px;
+    margin-top: 106px;
+    
+    
+   
+
+}
+.container {
+    display: flex;
+    margin-top: 100px;
+    /*flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto; 
+    
+}
+
+.headerelement {
+    width: 30%;
+    display: flex;
+    
+}
+
+.jumbo{
+    
+    width: 70%;
+}
+
+
+
+
 /* #endregion RESET*/
