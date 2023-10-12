@@ -17,7 +17,9 @@ img {
 
 }
 
-
+a.button-blu{
+    text-decoration: none;
+}
 
 nav {
     background-color: #ffffff;
@@ -35,7 +37,10 @@ nav {
 
 }
 
-nav ul li a {
+nav ul li a,
+.ul-sing-pack
+
+{
     text-decoration: none;
     color: black;
 }
@@ -128,7 +133,12 @@ h1 {
 
 .col-s {
     width: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
 }
+
 
 
 
@@ -151,27 +161,54 @@ h1 {
     margin-top: 30px;
 }
 
-.fa-user {                      /*freccia nera in giù*/
+.fa-user,
+.fa-euro-sign {
+                             /*freccia nera in giù e euro*/
     font-size: 20px;
 }
 
+.title-pack {
+    text-align: center;
+    display: block;
+}
+
 .singpack {
-    border: solid;
+    border: solid 1px;
+    
+    
+    
+
 
 }
+
 div i {
     text-align: center;
 }
 
 
-h3 {
-    border: solid;
-}
+
 
 .content-pack {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+   
 
+}
+
+.short-hr{
+    width: 48px;
+}
+.fa-check{
+    font-size: 20px;
+    color: #0061ff;
+}
+
+.rettangle-pack{
+    text-align: center;
+    border: 1px solid;
+    max-width: 100%;;
 }
 
 
