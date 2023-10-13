@@ -134,11 +134,21 @@ h1 {
 .col-s {
     width: 30%;
     margin-top: 50px;
-    margin-bottom: 50px;
+    
     
     
 }
 
+.col-s .singpack{
+    margin-bottom: 30px;
+}
+.title-pack{
+    margin-bottom: 20px;
+}
+
+.ul-sing-pack li {
+    margin-bottom: 10px;
+}
 
 
 
@@ -162,7 +172,8 @@ h1 {
 }
 
 .fa-user,
-.fa-euro-sign {
+.fa-euro-sign,
+.fa-building {
                              /*freccia nera in giù e euro*/
     font-size: 20px;
 }
@@ -192,6 +203,7 @@ div i {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+   
     
    
 
@@ -208,7 +220,29 @@ div i {
 .rettangle-pack{
     text-align: center;
     border: 1px solid;
-    max-width: 100%;;
+    margin: auto  ;
+    width: 95%;
+    height: ;
+    
+    
+    
+}
+
+.rettaflex{
+    display: flex;
+    padding: 20px;
+    text-align: start;
+    justify-content: space-between;
+}
+
+.rettaflex h4{
+margin-top: 24px;
+margin-bottom: 55px;
+   
+}
+.rettaflex .button-blu{
+    margin-top: 2%;
+    
 }
 
 
