@@ -246,6 +246,29 @@ margin-bottom: 55px;
     
 }
 
+.content-partner-flex{
+    display: flex;
+    margin: auto;
+    width: 95%;
+    padding-right: 200px;
+    gap: 30px;
+    
+}
+
+.button-white{
+    border: none;
+    text-align: center;
+    color: black;
+    border: solid 2px;
+    max-width: fit-content;
+    height: 36px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+
+}
+
 
 
 
