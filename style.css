@@ -173,7 +173,8 @@ h1 {
 
 .fa-user,
 .fa-euro-sign,
-.fa-building {
+.fa-building,
+.fa-people-group {
                              /*freccia nera in giù e euro*/
     font-size: 20px;
 }
